@@ -1480,7 +1480,7 @@
         "kind": 6,
         "importPath": "app.config",
         "description": "app.config",
-        "peekOfCode": "class Config:\n    SECRET_KEY = os.getenv(\"SECRET_KEY\", \"b3e3b0e4-8180-4b27-8f26-bb9173c2fa45\")\n    SQLALCHEMY_DATABASE_URI = os.getenv(\"DATABASE_URL\", \"postgresql://postgres:1234@localhost:5432/data_recettes\")\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    JWT_SECRET_KEY = os.getenv(\"JWT_SECRET_KEY\", \"f4c5a682-d96b-4c24-bcdb-4fe6d927ff58\")\n    JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=1)\n    JWT_REFRESH_TOKEN_EXPIRES = timedelta(days=7)\n    # Configuration CORS simplifiée\n    CORS_ORIGINS = os.getenv('CORS_ORIGINS', 'http://localhost:3000,http://192.168.110.1:3000').split(',')\n    CORS_RESOURCES = {",
+        "peekOfCode": "class Config:\n    # 🔑 Sécurité : Utilisation des variables d'environnement avec des valeurs par défaut\n    SECRET_KEY = os.getenv(\"SECRET_KEY\", \"b3e3b0e4-8180-4b27-8f26-bb9173c2fa45\")\n    # 🛠 Correction du format PostgreSQL pour éviter les erreurs sur Render\n    database_url = os.getenv(\"DATABASE_URL\", \"postgresql://postgres:1234@localhost:5432/data_recettes\")\n    if database_url.startswith(\"postgres://\"):\n        database_url = database_url.replace(\"postgres://\", \"postgresql://\", 1)\n    SQLALCHEMY_DATABASE_URI = database_url\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    # 🔐 JWT Configuration",
         "detail": "app.config",
         "documentation": {}
     },
