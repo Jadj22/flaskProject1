@@ -34927,3 +34927,85 @@ AttributeError: 'builtin_function_or_method' object has no attribute 'sample'
 2025-03-18 18:39:34,200 - INFO - 127.0.0.1 - - [18/Mar/2025 18:39:34] "GET /auth/profil HTTP/1.1" 200 -
 2025-03-18 18:39:34,200 - INFO - 127.0.0.1 - - [18/Mar/2025 18:39:34] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
 2025-03-18 18:39:34,219 - INFO - 127.0.0.1 - - [18/Mar/2025 18:39:34] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 15:47:13,553 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.66:5000
+2025-03-23 15:47:13,554 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 15:47:13,649 - INFO -  * Restarting with stat
+2025-03-23 15:47:14,525 - WARNING -  * Debugger is active!
+2025-03-23 15:47:14,531 - INFO -  * Debugger PIN: 824-803-791
+2025-03-23 15:49:56,104 - INFO - 127.0.0.1 - - [23/Mar/2025 15:49:56] "GET /recettes/public?page=1&per_page=10 HTTP/1.1" 200 -
+2025-03-23 15:49:56,104 - INFO - 127.0.0.1 - - [23/Mar/2025 15:49:56] "GET /recettes/public?page=1&per_page=10 HTTP/1.1" 200 -
+2025-03-23 15:50:38,930 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:38] "GET /recettes/public?page=1&per_page=10 HTTP/1.1" 200 -
+2025-03-23 15:50:38,930 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:38] "GET /recettes/public?page=1&per_page=10 HTTP/1.1" 200 -
+2025-03-23 15:50:58,974 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:58] "OPTIONS /auth/refresh HTTP/1.1" 200 -
+2025-03-23 15:50:58,980 - INFO - Token rafraîchi pour utilisateur ID : 4
+2025-03-23 15:50:58,981 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:58] "POST /auth/refresh HTTP/1.1" 200 -
+2025-03-23 15:50:58,990 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:58] "OPTIONS /auth/profil HTTP/1.1" 200 -
+2025-03-23 15:50:58,998 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 15:50:59,000 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 15:50:59,031 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "OPTIONS /recettes/publiques?page=1&per_page=10&publique=true HTTP/1.1" 200 -
+2025-03-23 15:50:59,045 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "GET /recettes/publiques?page=1&per_page=10&publique=true HTTP/1.1" 200 -
+2025-03-23 15:50:59,060 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "OPTIONS /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 15:50:59,060 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 15:50:59,061 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "OPTIONS /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 15:50:59,062 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 15:50:59,072 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 15:50:59,074 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 15:50:59,074 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 15:50:59,080 - INFO - 127.0.0.1 - - [23/Mar/2025 15:50:59] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:00:58,983 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:58] "OPTIONS /auth/refresh HTTP/1.1" 200 -
+2025-03-23 16:00:58,986 - INFO - Token rafraîchi pour utilisateur ID : 4
+2025-03-23 16:00:58,987 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:58] "POST /auth/refresh HTTP/1.1" 200 -
+2025-03-23 16:00:58,994 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:58] "OPTIONS /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:00:59,001 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:00:59,003 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:00:59,028 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:00:59,031 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:00:59,056 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "OPTIONS /recettes/publiques?page=1&per_page=10&publique=true HTTP/1.1" 200 -
+2025-03-23 16:00:59,071 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "GET /recettes/publiques?page=1&per_page=10&publique=true HTTP/1.1" 200 -
+2025-03-23 16:00:59,087 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "OPTIONS /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:00:59,087 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:00:59,089 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "OPTIONS /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:00:59,089 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:00:59,099 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:00:59,099 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:00:59,100 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:00:59,107 - INFO - 127.0.0.1 - - [23/Mar/2025 16:00:59] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:10:58,981 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:58] "OPTIONS /auth/refresh HTTP/1.1" 200 -
+2025-03-23 16:10:58,985 - INFO - Token rafraîchi pour utilisateur ID : 4
+2025-03-23 16:10:58,985 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:58] "POST /auth/refresh HTTP/1.1" 200 -
+2025-03-23 16:10:58,991 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:58] "OPTIONS /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:10:58,995 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:10:58,996 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:58] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:10:59,017 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:10:59,018 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:10:59,046 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "OPTIONS /recettes/publiques?page=1&per_page=10&publique=true HTTP/1.1" 200 -
+2025-03-23 16:10:59,059 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "GET /recettes/publiques?page=1&per_page=10&publique=true HTTP/1.1" 200 -
+2025-03-23 16:10:59,079 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "OPTIONS /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:10:59,079 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "OPTIONS /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:10:59,080 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:10:59,082 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:10:59,089 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:10:59,090 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:10:59,091 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:10:59,100 - INFO - 127.0.0.1 - - [23/Mar/2025 16:10:59] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:20:58,980 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:58] "OPTIONS /auth/refresh HTTP/1.1" 200 -
+2025-03-23 16:20:58,984 - INFO - Token rafraîchi pour utilisateur ID : 4
+2025-03-23 16:20:58,985 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:58] "POST /auth/refresh HTTP/1.1" 200 -
+2025-03-23 16:20:58,992 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:58] "OPTIONS /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:20:59,001 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:20:59,002 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:20:59,023 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:20:59,025 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:20:59,048 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "OPTIONS /recettes/publiques?page=1&per_page=10&publique=true HTTP/1.1" 200 -
+2025-03-23 16:20:59,062 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "GET /recettes/publiques?page=1&per_page=10&publique=true HTTP/1.1" 200 -
+2025-03-23 16:20:59,079 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "OPTIONS /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:20:59,079 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:20:59,080 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "OPTIONS /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:20:59,082 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:20:59,090 - INFO - Accès au profil pour : toto@gmial.com (Méthode: GET, Path: /auth/profil)
+2025-03-23 16:20:59,092 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "GET /auth/profil HTTP/1.1" 200 -
+2025-03-23 16:20:59,093 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
+2025-03-23 16:20:59,103 - INFO - 127.0.0.1 - - [23/Mar/2025 16:20:59] "GET /recettes/verifier-enregistrement/11 HTTP/1.1" 200 -
